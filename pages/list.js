@@ -13,6 +13,7 @@ export default class List extends Component {
                         <li key={index} className={styles.error}>{item}</li>
                     )
                 }
+                <p style={{ color: 'red' }}>hi there</p>
             </div>
         )
     }
