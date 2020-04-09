@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import styles from './List.module.css'
 export default class List extends Component {
     state = {
         data:["hello","wrodd"]
@@ -10,7 +10,7 @@ export default class List extends Component {
             <div>
                 {
                     this.state.data.map((item,index)=>
-                        <li key={index}>{item}</li>
+                        <li key={index} className={styles.error}>{item}</li>
                     )
                 }
             </div>
