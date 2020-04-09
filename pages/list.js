@@ -13,7 +13,15 @@ export default class List extends Component {
                         <li key={index} className={styles.error}>{item}</li>
                     )
                 }
-                <p style={{ color: 'red' }}>hi there</p>
+                <p style={{ color: 'red' ,}}>CSS-in-JS（内连样式）</p>
+                <style jsx>
+                    {`
+                    h1{
+                        background: red;
+                    }
+                    `}
+                </style>
+                <h1>jsx 样式</h1>
             </div>
         )
     }
