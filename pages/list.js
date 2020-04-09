@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export default class list extends Component {
+export default class List extends Component {
     state = {
-        data:["hello","wrod"]
+        data:["hello","wrodd"]
     }
 
     render() {
         return (
-            <div>d
+            <div>
                 {
                     this.state.data.map((item,index)=>
                         <li key={index}>{item}</li>
