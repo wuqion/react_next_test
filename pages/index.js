@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
+import Layout from './component/Layout'
 
 export default class Index extends Component {
     render() {
         return (
-            <div>
-                <h1>第一个组建d</h1>
-            </div>
+            <Layout>
+                <div>
+                    <h1>第一个组建</h1>
+                </div>
+            </Layout>
+            
         )
     }
 }
